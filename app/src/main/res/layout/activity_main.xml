@@ -1,0 +1,108 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:layout_gravity="center"
+    android:layout_marginTop="80dp">
+
+    <!--计算器-->
+    <EditText
+        android:id="@+id/result"
+        android:padding="25dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#D69696"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:autofillHints=""
+        android:hint="@string/input"
+        tools:ignore="LabelFor"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/del"
+        android:padding="25dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/delete"
+        android:textColor="#971818"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:padding="25dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/clear"
+        android:textColor="#64C51F"/>
+
+    <Button android:id="@+id/button_1"
+        android:padding="25dp"
+        android:text="@string/num1" />
+
+    <Button android:id="@+id/button_2"
+        android:padding="25dp"
+        android:text="@string/num2" />
+
+    <Button android:id="@+id/button_3"
+        android:padding="25dp"
+        android:text="@string/num3" />
+
+    <Button android:id="@+id/button_add"
+        android:padding="25dp"
+        android:text="@string/add" />
+
+    <Button android:id="@+id/button_4"
+        android:padding="25dp"
+        android:text="@string/num4" />
+
+    <Button android:id="@+id/button_5"
+        android:padding="25dp"
+        android:text="@string/num5" />
+
+    <Button android:id="@+id/button_6"
+        android:padding="25dp"
+        android:text="@string/num6" />
+
+    <Button android:id="@+id/button_substract"
+        android:padding="25dp"
+        android:text="@string/substract" />
+
+    <Button android:id="@+id/button_7"
+        android:padding="25dp"
+        android:text="@string/num7" />
+
+    <Button android:id="@+id/button_8"
+        android:padding="25dp"
+        android:text="@string/num8" />
+
+    <Button android:id="@+id/button_9"
+        android:padding="25dp"
+        android:text="@string/num9" />
+
+    <Button android:id="@+id/button_multiply"
+        android:padding="25dp"
+        android:text="@string/multiply" />
+
+    <Button android:id="@+id/button_0"
+        android:padding="25dp"
+        android:text="@string/num0" />
+
+    <Button android:id="@+id/button_point"
+        android:padding="25dp"
+        android:text="@string/point" />
+
+    <Button android:id="@+id/button_equal"
+        android:padding="25dp"
+        android:text="@string/equal" />
+
+    <Button android:id="@+id/button_devide"
+        android:padding="25dp"
+        android:text="@string/divide" />
+
+</GridLayout>
